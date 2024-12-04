@@ -33,7 +33,7 @@
             class="search-input"
             placeholder="Kitap, Elektronik, Oyuncak, Kırtasiyede Ürün, Kategori ve Marka Ara"
           />
-          <button class="search-btn">Ara</button>
+          <button class="search-btn"  @click="goToLink('/LeftPage')">Ara</button>
         </div>
 
         <button class="header-btn" @click="goToLink('/')">Favori Listem</button>
